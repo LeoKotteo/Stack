@@ -144,25 +144,25 @@ private:
 
 
 
-	int main() {
-		LimitedArrayStack Lstack = LimitedArrayStack(5);
-		cout << Lstack.Size() << endl;
-		cout << " Empty or not = " << Lstack.IsEmpty() << endl;
-		Lstack.Pop();
-		Lstack.Push(8);
-		Lstack.Print();
-		cout << Lstack.Top() << endl;
-		UnlimitedArrayStack Ustack;
-		cout << Ustack.Size() << endl;
-		cout << " Empty or not = " << Ustack.IsEmpty() << endl;
-		Ustack.Pop();
-		Ustack.Push(12);
-		Ustack.Print();
-		cout << Ustack.Top();
-		Queue q;
-		q.Pop();
-		q.Print();
-		q.Push(6);
-		q.Print();
-		cout << q.Top() << endl;
-	}
+int main() {
+	LimitedArrayStack Lstack = LimitedArrayStack(5);
+	cout << Lstack.Size() << endl;
+	cout << " Empty or not = " << Lstack.IsEmpty() << endl;
+	Lstack.Pop();
+	Lstack.Push(8);
+	Lstack.Print();
+	cout << Lstack.Top() << endl;
+	UnlimitedArrayStack Ustack;
+	cout << Ustack.Size() << endl;
+	cout << " Empty or not = " << Ustack.IsEmpty() << endl;
+	Ustack.Pop();
+	Ustack.Push(12);
+	Ustack.Print();
+	cout << Ustack.Top();
+	Queue q;
+	q.Pop();
+	q.Print();
+	q.Push(6);
+	q.Print();
+	cout << q.Top() << endl;
+}
